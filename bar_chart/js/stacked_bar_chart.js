@@ -352,7 +352,7 @@
         } else {
             vis.svgs[id].selectAll("mybar")
                 .data(vis.data)
-                .enter().append('rect')
+                .join('rect')
                 .attr("class", d => "main-rect rect-bar-" + d.Max_Week_Date2)
                 .attr("x", d => vis.x_scale(d.Max_Week_Date))
                 .attr("y", d => vis.y_scale(isOne ? d.Age_adjusted_unvax_IR : d.Age_adjusted_vax_IR))

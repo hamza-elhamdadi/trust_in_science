@@ -33,7 +33,7 @@
     margin-left: 70px;
     font-size: 12px;
     font-family: Segoe UI
-    
+
 }
 
 .axisMonths line{
@@ -131,4 +131,8 @@ h3 {
 
 .Skin .QuestionText{
     line-height: 1em!important;
+}
+
+.Skin .QuestionOuter .Matrix {
+    max-width: none!important;
 }

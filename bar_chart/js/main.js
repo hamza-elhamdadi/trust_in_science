@@ -41,7 +41,6 @@ function getBarChartData(){
 //         interactive: false
 //     });
 //     chart.initVis('chart')
-//     chart.updateVis('chart')
 // });
 // .then(data => {
 //     chart = new StackedBarChart({
