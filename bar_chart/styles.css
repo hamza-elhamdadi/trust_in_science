@@ -131,8 +131,9 @@ h3 {
 
 .Skin .QuestionText{
     line-height: 1em!important;
+    max-width: 100%!important;
 }
 
 .Skin .QuestionOuter .Matrix {
-    max-width: none!important;
+    max-width: 100%!important;
 }
